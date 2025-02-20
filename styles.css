@@ -49,7 +49,7 @@ form {
 .about-page {
     background-image: url('cs-background.jpg');
     background-size: cover;
-    color: #black;
+    color: black;
 }
 
 footer {
