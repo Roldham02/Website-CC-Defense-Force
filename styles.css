@@ -35,13 +35,14 @@ main {
 }
 
 table {
-    width: 100%;
+    width: 50%; /* Reduced table width */
+    margin: auto; /* Centers the table */
     border-collapse: collapse;
     table-layout: fixed;
 }
 
 table td {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     vertical-align: top;
 }
@@ -54,7 +55,7 @@ table td img {
     width: 100%;
     height: auto;
     display: block;
-    max-width: 200px;
+    max-width: 150px; /* Reduced max image width */
 }
 
 form {
@@ -74,18 +75,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-@media screen and (max-width: 600px) {
-    table, tr, td {
-        display: block;
-    }
-    
-    table td:first-child {
-        width: 100%;
-    }
-    
-    table td img {
-        max-width: 100%;
-    }
 }
