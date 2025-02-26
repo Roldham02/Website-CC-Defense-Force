@@ -5,12 +5,12 @@ body {
     padding: 0;
     background-image: url('cc_bg.png');
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -35,8 +35,8 @@ main {
 }
 
 table {
-    width: 50%; /* Reduced table width */
-    margin: auto; /* Centers the table */
+    width: 50%; 
+    margin: auto; 
     border-collapse: collapse;
     table-layout: fixed;
 }
@@ -55,7 +55,7 @@ table td img {
     width: 100%;
     height: auto;
     display: block;
-    max-width: 150px; /* Reduced max image width */
+    max-width: 150px; 
 }
 
 form {
@@ -64,12 +64,11 @@ form {
 }
 
 .about-page {
-    /* Your existing styles for about page */
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
