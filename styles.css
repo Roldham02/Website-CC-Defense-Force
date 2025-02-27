@@ -39,6 +39,7 @@ table {
     margin: auto; 
     border-collapse: collapse;
     table-layout: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 table td {
