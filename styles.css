@@ -92,6 +92,8 @@ button:hover {
     display: block;
     margin: 0 auto;
     width: 400px;
+    padding: 15px 30px;
+    font-size: 18px; 
 }
 
 form {
