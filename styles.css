@@ -81,12 +81,17 @@ button {
     border: 2px solid white; 
     cursor: pointer;
     transition: all 0.3s ease;
-    align-items: center; 
 }
 
 button:hover {
     background-color: rgba(85, 85, 85, 0.7); 
     transform: scale(1.05);
+}
+
+.email-button {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 form {
