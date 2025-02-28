@@ -88,6 +88,50 @@ button:hover {
     transform: scale(1.05);
 }
 
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    font: inherit;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font: inherit;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(85, 85, 85, 0.7);
+    transform: scale(1.05);
+}
+
+
 footer {
     background-color: #333;
     color: white;
